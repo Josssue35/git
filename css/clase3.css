@@ -1,0 +1,32 @@
+body {
+  background-color: burlywood;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  background-color: wheat;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  border: 1px;
+  background-color: rgb(226, 138, 75);
+  padding: 5px;
+}
+
+ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+li:hover {
+  background-color: rgba(255, 232, 127, 0.705);
+}
